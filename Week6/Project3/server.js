@@ -21,6 +21,8 @@ db.connect((err)=>{
     console.log("MySQL Database Connection Established Successfully ");
 })
 
+
+
 //Create a New Database
 app.get('/CreateDB', (req, res)=>{
     let sqlString = "CREATE DataBase Shannon_Todo"
